@@ -1,0 +1,31 @@
+:root {
+  --o-attribution-grid-base: 8px;
+  --o-attribution-font-size: 0.72rem;
+  --o-attribution-section-display: block;
+  --o-attribution-learn-more-display: block;
+  --o-attribution-learn-more-columns-width: 400px;
+  --o-attribution-learn-more-columns: repeat(2, minmax(0, var(--o-attribution-learn-more-columns-width)));
+  --o-attribution-section-borders: 1px solid;
+  --o-attribution-breakpoint: 768px;
+
+  --o-attribution-toggle-margin-top: calc(var(--o-attribution-grid-base) * 2);
+  --o-attribution-nav-padding-top: calc(var(--o-attribution-grid-base) * 3);
+  --o-attribution-learn-more-p-margin-bottom: calc(var(--o-attribution-grid-base) * 2);
+
+  --o-attribution-feather-dimension: calc(var(--o-attribution-grid-base) * 3);
+  --o-attribution-feather-fill: none;
+  --o-attribution-feather-stroke: currentColor;
+  --o-attribution-feather-stroke-width: 2;
+  --o-attribution-feather-stroke-linecap: round;
+  --o-attribution-feather-stroke-linejoin: round;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --o-attribution-section-display: flex;
+    --o-attribution-learn-more-display: grid;
+    --o-attribution-toggle-margin-top: 0;
+    --o-attribution-nav-padding-top: 0;
+    --o-attribution-learn-more-p-margin-bottom: 0;
+  }
+}

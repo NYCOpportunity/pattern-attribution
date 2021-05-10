@@ -1,0 +1,81 @@
+.o-attribution {
+  font-size: var(--o-attribution-font-size);
+}
+
+.o-attribution > * {
+  border-bottom: var(--o-attribution-section-borders);
+  padding-top: calc(var(--o-attribution-grid-base) * 4);
+  padding-bottom: calc(var(--o-attribution-grid-base) * 4);
+}
+
+.o-attribution > *:last-child {
+  border-bottom: none;
+}
+
+.o-attribution__flex {
+  display: var(--o-attribution-section-display);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.o-attribution__byline {
+  margin-bottom: calc(var(--o-attribution-grid-base) * 2);
+}
+
+.o-attribution__toggle {
+  margin-top: var(--o-attribution-toggle-margin-top);
+}
+
+.o-attribution__feather {
+  width: var(--o-attribution-feather-dimension);
+  height: var(--o-attribution-feather-dimension);
+
+  fill: var(--o-attribution-feather-fill);
+  stroke: var(--o-attribution-feather-stroke);
+  stroke-width: var(--o-attribution-feather-stroke-width);
+  stroke-linecap: var(--o-attribution-feather-stroke-linecap);
+  stroke-linejoin: var(--o-attribution-feather-stroke-linejoin);
+
+  pointer-events: none;
+}
+
+.o-attribution__toggle .o-attribution__feather {
+  margin-inline-start: calc(var(--o-attribution-grid-base) / 2);
+  transform-origin: center;
+}
+
+.o-attribution__toggle.active .o-attribution__feather {
+  transform: rotate(180deg);
+}
+
+.o-attribution__learn-more {
+  display: var(--o-attribution-learn-more-display);
+  grid-template-columns: var(--o-attribution-learn-more-columns);
+  gap: calc(var(--o-attribution-grid-base) * 3);
+}
+
+.o-attribution__learn-more p {
+  margin-bottom: var(--o-attribution-learn-more-p-margin-bottom);
+}
+
+.o-attribution__copyrite p {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.o-attribution__logo-nyc {
+  margin-inline-end: var(--o-attribution-grid-base);
+}
+
+.o-attribution__nav {
+  padding-top: var(--o-attribution-nav-padding-top);
+}
+
+.o-attribution__nav > * {
+  margin-inline-start: calc(var(--o-attribution-grid-base) * 3);
+}
+
+.o-attribution__nav > *:first-child {
+  margin-inline-start: 0;
+}
