@@ -24,7 +24,7 @@ The Attribution Pattern includes two stylesheets. One that sets default design t
 
 ```scss
 @import '@nycopportunity/pattern-attribution/src/tokens';
-@import '@nycopportunity/pattern-attribution/src/modal';
+@import '@nycopportunity/pattern-attribution/src/attribution';
 ```
 
 ### Markup
