@@ -1,6 +1,6 @@
 # Attribution Pattern
 
-The Attribution Pattern is a footer for products maintained by the Mayor's Office for Economic Opportunity and it's partners. It includes a byline, several partnership NYC logo lockup SVG files, NYC trademark and copyright information, and [NYC.gov terms of use](http://www1.nyc.gov/home/privacy-policy.page) and [privacy policy](http://www1.nyc.gov/home/terms-of-use.page).
+The Attribution Pattern is a footer for products maintained by the Mayor's Office for Economic Opportunity and its partners. It includes a byline, several partnership NYC logo lockup SVG files, NYC trademark and copyright information, and [NYC.gov terms of use](http://www1.nyc.gov/home/privacy-policy.page) and [privacy policy](http://www1.nyc.gov/home/terms-of-use.page).
 
 The Pattern may use the "Learn More" toggle to show a short summary about the Mayor's Office for Economic Opportunity. The toggle can be replaced with an "About" link if the product
 
