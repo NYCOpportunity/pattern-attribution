@@ -1,6 +1,6 @@
 {
   "name": "@nycopportunity/pattern-attribution",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The Modal Pattern is an accessible modal dialog that uses the Patterns Scripts dialog utility.",
   "repository": {
     "type": "git",
