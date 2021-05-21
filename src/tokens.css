@@ -11,6 +11,7 @@
   --o-attribution-toggle-margin-top: calc(var(--o-attribution-grid-base) * 2);
   --o-attribution-nav-padding-top: calc(var(--o-attribution-grid-base) * 3);
   --o-attribution-learn-more-p-margin-bottom: calc(var(--o-attribution-grid-base) * 2);
+  --o-attribution-copyright-br-display: none;
 
   --o-attribution-feather-dimension: calc(var(--o-attribution-grid-base) * 3);
   --o-attribution-feather-fill: none;
@@ -27,5 +28,6 @@
     --o-attribution-toggle-margin-top: 0;
     --o-attribution-nav-padding-top: 0;
     --o-attribution-learn-more-p-margin-bottom: 0;
+    --o-attribution-copyright-br-display: block;
   }
 }

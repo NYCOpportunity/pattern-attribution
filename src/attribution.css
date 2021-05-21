@@ -58,13 +58,16 @@
   margin-bottom: var(--o-attribution-learn-more-p-margin-bottom);
 }
 
-.o-attribution__copyrite p {
+.o-attribution__copyright p {
   margin-bottom: 0;
-  display: flex;
-  align-items: center;
+}
+
+.o-attribution__copyright p > br {
+  display: var(--o-attribution-copyright-br-display);
 }
 
 .o-attribution__logo-nyc {
+  vertical-align: text-bottom;
   margin-inline-end: var(--o-attribution-grid-base);
 }
 
