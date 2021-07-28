@@ -6,6 +6,12 @@ The Pattern may use the "Learn More" toggle to show a short summary about the Ma
 
 ## Usage
 
+### Installation
+
+```shell
+$ npm install @nycopportunity/pattern-attribution
+```
+
 ### ES Module
 
 The "Learn More" toggle uses the [Patterns Scripts toggle utility](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/toggle) which is included as a dependency of this project. The utility can be imported as an ES module and instantiated.
