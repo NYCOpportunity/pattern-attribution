@@ -1,8 +1,8 @@
 # Attribution Pattern
 
-The Attribution Pattern is a footer for products maintained by the Mayor's Office for Economic Opportunity and its partners. It includes a byline, several partnership NYC logo lockup SVG files, NYC trademark and copyright information, and [NYC.gov terms of use](http://www1.nyc.gov/home/privacy-policy.page) and [privacy policy](http://www1.nyc.gov/home/terms-of-use.page).
+The Attribution Pattern is a footer for products maintained by the Mayor's Office for Economic Opportunity and its partners. It includes a byline, several NYC logo lockup files (SVG), NYC trademark and copyright information, and [NYC.gov terms of use](http://www1.nyc.gov/home/privacy-policy.page) and [privacy policy](http://www1.nyc.gov/home/terms-of-use.page).
 
-The Pattern may use the "Learn More" toggle to show a short summary about the Mayor's Office for Economic Opportunity. The toggle can be replaced with an "About" link if the product
+The Pattern may use the "Learn More" toggle to show a short summary of the Mayor's Office for Economic Opportunity. The toggle can be replaced with an "About" link if the product
 
 ## Usage
 
@@ -22,7 +22,7 @@ import Toggle from '@nycopportunity/pattern-scripts/src/toggle';
 new Toggle();
 ```
 
-If the "Learn More" toggle isn't used the module does not need to be installed.
+If the "Learn More" toggle isn't used then the module does not need to be installed.
 
 ### Styles
 
@@ -35,8 +35,8 @@ The Attribution Pattern includes two stylesheets. One that sets default design t
 
 ### Markup
 
-[Sample markup can be previewed the source directory](src/attribution.twig).
+[Sample markup can be previewed in the source directory](src/attribution.twig).
 
-#### Potentially Focusable Elements
+#### Pattern Scripts Toggle Utility
 
-The Patterns Scripts dialog utility uses the [toggling utility](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/toggle#attributes) from the same library. Potentially focusable elements will need to have their `tabindex` set to `-1` before the modal is toggled open. A full list of elements can be found in the documentation for the Toggle Utility.
+Keep in mind proper [ARIA labeling, potentially focusable element `tabindex`, and other attribute toggling is handled by the utility](https://github.com/CityOfNewYork/patterns-scripts/tree/main/src/toggle#attributes) to ensure screen reader accessibility.
