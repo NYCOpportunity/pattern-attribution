@@ -5,8 +5,19 @@
   --o-attribution-learn-more-display: block;
   --o-attribution-learn-more-columns-width: 400px;
   --o-attribution-learn-more-columns: repeat(2, minmax(0, var(--o-attribution-learn-more-columns-width)));
-  --o-attribution-section-borders: 1px solid;
+  --o-attribution-section-borders-color: transparent;
+  --o-attribution-section-borders: 1px solid var(--o-attribution-section-borders-color);
+
+  --o-attribution-horizontal-padding: calc(var(--o-attribution-grid-base) * 2);
+  --o-attribution-vertical-padding: calc(var(--o-attribution-grid-base) * 4);
+
+  --o-attribution-max-width: calc(var(--o-attribution-grid-base) * 180);
   --o-attribution-breakpoint: 768px;
+
+  --o-attribution-background-color: transparent;
+
+  --o-attribution-nav-padding: calc(var(--o-attribution-grid-base) * 2);
+  --o-attribution-nav-item-margin: 1em;
 
   --o-attribution-toggle-margin-top: calc(var(--o-attribution-grid-base) * 2);
   --o-attribution-nav-padding-top: calc(var(--o-attribution-grid-base) * 3);
@@ -23,6 +34,7 @@
 
 @media screen and (min-width: 768px) {
   :root {
+    --o-attribution-horizontal-padding: calc(var(--o-attribution-grid-base) * 3);
     --o-attribution-section-display: flex;
     --o-attribution-learn-more-display: grid;
     --o-attribution-toggle-margin-top: 0;
