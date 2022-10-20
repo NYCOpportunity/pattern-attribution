@@ -57,7 +57,7 @@ footer role=this.attribution.role class='o-attribution ${this.attribution.class}
         span Learn more
 
         svg class='o-attribution__feather' aria-hidden='true'
-          use href='#feather-chevron-down'
+          use href='#lucide-chevron-down'
 
     - if this.attribution.about
       a class=this.attribution.about.class href=this.attribution.about.url target=this.attribution.about.target rel=this.attribution.about.rel
